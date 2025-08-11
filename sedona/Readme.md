@@ -2,7 +2,7 @@
 
 * Студент: [Lera Koval'chuk](https://htmlacademy.ru/profile/id2667205).
 * Наставник: `Нет`.
-
+* Мой сайт: (https://lidark23.github.io/sedona/)
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
