@@ -1,0 +1,75 @@
+/* Базовые настройки */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Цвет фона всей страницы */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8ff;
+  color: #333;
+}
+
+/* Стили шапки сайта */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #007bff;
+  color: white;
+}
+
+/* Навигационное меню */
+nav {
+  text-align: right;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1em;
+  transition: all .3s ease-in-out;
+}
+
+nav a:hover {
+  color: yellow;
+}
+
+/* Основная секция страницы */
+main {
+  max-width: 960px;
+  margin: auto;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 1rem;
+}
+
+/* Основной контент страницы */
+article {
+  background-color: white;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Боковая панель */
+aside {
+  background-color: #f5f5f5;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Нижний колонтитул */
+footer {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
